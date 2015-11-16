@@ -3,11 +3,10 @@
   "version": "1.2.14.a",
   "license": "zlib",
   "summary": "FXForms is an Objective-C library for easily creating table-based forms on iOS. It is ideal for settings pages or user data entry tasks.",
-  "homepage": "https://github.com/johnbrayton/FXForms",
+  "homepage": "https://github.com/jbrayton/FXForms",
   "authors": "Nick Lockwood (fork by John Brayton)",
   "source": {
-    "git": "https://github.com/johnbrayton/FXForms.git",
-    "tag": "1.2.14"
+    "git": "https://github.com/jbrayton/FXForms.git"
   },
   "source_files": "FXForms/FXForms.{h,m}",
   "requires_arc": true,
