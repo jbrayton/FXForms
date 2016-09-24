@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2143E2DC1D96CD2F00CCC453 /* FXFormsFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 2143E2DA1D96CD2F00CCC453 /* FXFormsFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2143E2E81D96CF0900CCC453 /* FXForms.h in Headers */ = {isa = PBXBuildFile; fileRef = 2143E2E61D96CF0900CCC453 /* FXForms.h */; };
+		2143E2E81D96CF0900CCC453 /* FXForms.h in Headers */ = {isa = PBXBuildFile; fileRef = 2143E2E61D96CF0900CCC453 /* FXForms.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2143E2E91D96CF0900CCC453 /* FXForms.m in Sources */ = {isa = PBXBuildFile; fileRef = 2143E2E71D96CF0900CCC453 /* FXForms.m */; };
 /* End PBXBuildFile section */
 
