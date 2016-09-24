@@ -8,16 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		2143E2DC1D96CD2F00CCC453 /* FXFormsFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 2143E2DA1D96CD2F00CCC453 /* FXFormsFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2143E2E41D96CD4800CCC453 /* FXForms.h in Headers */ = {isa = PBXBuildFile; fileRef = 2143E2E21D96CD4800CCC453 /* FXForms.h */; };
-		2143E2E51D96CD4800CCC453 /* FXForms.m in Sources */ = {isa = PBXBuildFile; fileRef = 2143E2E31D96CD4800CCC453 /* FXForms.m */; };
+		2143E2E81D96CF0900CCC453 /* FXForms.h in Headers */ = {isa = PBXBuildFile; fileRef = 2143E2E61D96CF0900CCC453 /* FXForms.h */; };
+		2143E2E91D96CF0900CCC453 /* FXForms.m in Sources */ = {isa = PBXBuildFile; fileRef = 2143E2E71D96CF0900CCC453 /* FXForms.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2143E2D71D96CD2F00CCC453 /* FXFormsFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FXFormsFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2143E2DA1D96CD2F00CCC453 /* FXFormsFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FXFormsFramework.h; sourceTree = "<group>"; };
 		2143E2DB1D96CD2F00CCC453 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2143E2E21D96CD4800CCC453 /* FXForms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FXForms.h; path = ../../FXForms/FXForms.h; sourceTree = "<group>"; };
-		2143E2E31D96CD4800CCC453 /* FXForms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FXForms.m; path = ../../FXForms/FXForms.m; sourceTree = "<group>"; };
+		2143E2E61D96CF0900CCC453 /* FXForms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FXForms.h; path = FXForms/FXForms.h; sourceTree = SOURCE_ROOT; };
+		2143E2E71D96CF0900CCC453 /* FXForms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FXForms.m; path = FXForms/FXForms.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +51,8 @@
 			isa = PBXGroup;
 			children = (
 				2143E2DA1D96CD2F00CCC453 /* FXFormsFramework.h */,
-				2143E2E21D96CD4800CCC453 /* FXForms.h */,
-				2143E2E31D96CD4800CCC453 /* FXForms.m */,
+				2143E2E61D96CF0900CCC453 /* FXForms.h */,
+				2143E2E71D96CF0900CCC453 /* FXForms.m */,
 				2143E2DB1D96CD2F00CCC453 /* Info.plist */,
 			);
 			path = FXFormsFramework;
@@ -65,7 +65,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2143E2E41D96CD4800CCC453 /* FXForms.h in Headers */,
+				2143E2E81D96CF0900CCC453 /* FXForms.h in Headers */,
 				2143E2DC1D96CD2F00CCC453 /* FXFormsFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2143E2E51D96CD4800CCC453 /* FXForms.m in Sources */,
+				2143E2E91D96CF0900CCC453 /* FXForms.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +297,7 @@
 				2143E2E11D96CD2F00CCC453 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
