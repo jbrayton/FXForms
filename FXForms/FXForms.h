@@ -255,12 +255,12 @@ UIKIT_EXTERN NSString *const FXFormFieldTypeImage; //image
 @end
 
 
-@interface FXFormImagePickerCell : FXFormBaseCell
-
-@property (nonatomic, readonly) UIImageView *imagePickerView;
-@property (nonatomic, readonly) UIImagePickerController *imagePickerController;
-
-@end
+//@interface FXFormImagePickerCell : FXFormBaseCell
+//
+//@property (nonatomic, readonly) UIImageView *imagePickerView;
+//@property (nonatomic, readonly) UIImagePickerController *imagePickerController;
+//
+//@end
 
 
 @interface FXFormOptionPickerCell : FXFormBaseCell
