@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2143E2DC1D96CD2F00CCC453 /* FXFormsFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 2143E2DA1D96CD2F00CCC453 /* FXFormsFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2143E2E41D96CD4800CCC453 /* FXForms.h in Headers */ = {isa = PBXBuildFile; fileRef = 2143E2E21D96CD4800CCC453 /* FXForms.h */; };
+		2143E2E51D96CD4800CCC453 /* FXForms.m in Sources */ = {isa = PBXBuildFile; fileRef = 2143E2E31D96CD4800CCC453 /* FXForms.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2143E2D71D96CD2F00CCC453 /* FXFormsFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FXFormsFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2143E2DA1D96CD2F00CCC453 /* FXFormsFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FXFormsFramework.h; sourceTree = "<group>"; };
+		2143E2DB1D96CD2F00CCC453 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2143E2E21D96CD4800CCC453 /* FXForms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FXForms.h; path = ../../FXForms/FXForms.h; sourceTree = "<group>"; };
+		2143E2E31D96CD4800CCC453 /* FXForms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FXForms.m; path = ../../FXForms/FXForms.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2143E2D31D96CD2F00CCC453 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2143E2CD1D96CD2F00CCC453 = {
+			isa = PBXGroup;
+			children = (
+				2143E2D91D96CD2F00CCC453 /* FXFormsFramework */,
+				2143E2D81D96CD2F00CCC453 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2143E2D81D96CD2F00CCC453 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2143E2D71D96CD2F00CCC453 /* FXFormsFramework.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2143E2D91D96CD2F00CCC453 /* FXFormsFramework */ = {
+			isa = PBXGroup;
+			children = (
+				2143E2DA1D96CD2F00CCC453 /* FXFormsFramework.h */,
+				2143E2E21D96CD4800CCC453 /* FXForms.h */,
+				2143E2E31D96CD4800CCC453 /* FXForms.m */,
+				2143E2DB1D96CD2F00CCC453 /* Info.plist */,
+			);
+			path = FXFormsFramework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2143E2D41D96CD2F00CCC453 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2143E2E41D96CD4800CCC453 /* FXForms.h in Headers */,
+				2143E2DC1D96CD2F00CCC453 /* FXFormsFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2143E2D61D96CD2F00CCC453 /* FXFormsFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2143E2DF1D96CD2F00CCC453 /* Build configuration list for PBXNativeTarget "FXFormsFramework" */;
+			buildPhases = (
+				2143E2D21D96CD2F00CCC453 /* Sources */,
+				2143E2D31D96CD2F00CCC453 /* Frameworks */,
+				2143E2D41D96CD2F00CCC453 /* Headers */,
+				2143E2D51D96CD2F00CCC453 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FXFormsFramework;
+			productName = FXFormsFramework;
+			productReference = 2143E2D71D96CD2F00CCC453 /* FXFormsFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2143E2CE1D96CD2F00CCC453 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "John Brayton";
+				TargetAttributes = {
+					2143E2D61D96CD2F00CCC453 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 372S63A2R8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2143E2D11D96CD2F00CCC453 /* Build configuration list for PBXProject "FXFormsFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2143E2CD1D96CD2F00CCC453;
+			productRefGroup = 2143E2D81D96CD2F00CCC453 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2143E2D61D96CD2F00CCC453 /* FXFormsFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2143E2D51D96CD2F00CCC453 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2143E2D21D96CD2F00CCC453 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2143E2E51D96CD4800CCC453 /* FXForms.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2143E2DD1D96CD2F00CCC453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2143E2DE1D96CD2F00CCC453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2143E2E01D96CD2F00CCC453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 372S63A2R8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FXFormsFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goldenhillsoftware.FXFormsFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2143E2E11D96CD2F00CCC453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 372S63A2R8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FXFormsFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goldenhillsoftware.FXFormsFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2143E2D11D96CD2F00CCC453 /* Build configuration list for PBXProject "FXFormsFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2143E2DD1D96CD2F00CCC453 /* Debug */,
+				2143E2DE1D96CD2F00CCC453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2143E2DF1D96CD2F00CCC453 /* Build configuration list for PBXNativeTarget "FXFormsFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2143E2E01D96CD2F00CCC453 /* Debug */,
+				2143E2E11D96CD2F00CCC453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2143E2CE1D96CD2F00CCC453 /* Project object */;
+}
